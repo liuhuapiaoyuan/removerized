@@ -54,7 +54,7 @@ export const MenuWithButton: React.FC<MainButtonProps> = ({ items }) => {
 
               <Separator className="mb-60 mt-20"></Separator>
 
-              <Link
+              {/* <Link
                 href={siteConfig.links.github}
                 target="_blank"
                 rel="noreferrer"
@@ -85,7 +85,7 @@ export const MenuWithButton: React.FC<MainButtonProps> = ({ items }) => {
               >
                 <Icons.Telegram className="size-4 fill-muted-foreground" />
                 Telegram
-              </Link>
+              </Link> */}
             </div>
           </ScrollArea>
 

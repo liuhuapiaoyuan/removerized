@@ -5,18 +5,11 @@ export const Footer = () => {
       <a
         className="text-foreground hover:underline"
         target="_blank"
-        href="https://yossthedev.github.io"
+        href="https://zddydd.com"
       >
-        @yossthedev
+        @lionsn
       </a>
-      . The source code is available on{" "}
-      <a
-        className="text-foreground hover:underline"
-        target="_blank"
-        href="https://github.com/yossTheDev/removerized"
-      >
-        GitHub
-      </a>
+       
     </span>
   )
 }

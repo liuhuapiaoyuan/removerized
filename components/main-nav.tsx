@@ -17,8 +17,9 @@ export function MainNav({ items }: MainNavProps) {
       <Link href="/" className="flex items-center space-x-2">
         <Icons.logo className="size-5" />
         <span className="inline-block font-museo font-extrabold tracking-wider">
-          removerized
+          图像背景移除
         </span>
+        <span className="tag rounded-full bg-blue-500 p-2 text-xs text-white">免费</span>
       </Link>
       {items?.length ? (
         <nav className="hidden gap-6 md:flex">

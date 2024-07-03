@@ -15,7 +15,7 @@ export function SiteHeader() {
         <MainNav items={siteConfig.mainNav} />
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="hidden items-center space-x-1 md:flex">
-            <Link
+            {/* <Link
               href={siteConfig.links.github}
               target="_blank"
               rel="noreferrer"
@@ -59,7 +59,7 @@ export function SiteHeader() {
                 <Icons.Telegram className="size-5 fill-current" />
                 <span className="sr-only">Telegram</span>
               </div>
-            </Link>
+            </Link> */}
 
             <ThemeToggle />
           </nav>

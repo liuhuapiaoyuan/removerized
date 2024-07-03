@@ -4,7 +4,6 @@ import Script from "next/script"
 import { GoogleAnalytics } from "@next/third-parties/google"
 
 import { siteConfig } from "@/config/site"
-import { fontMuseo, fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
 import { Toaster } from "@/components/ui/sonner"
 import { Footer } from "@/components/footer"
@@ -70,8 +69,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <body
           className={cn(
             "min-h-screen bg-background font-sans antialiased",
-            fontSans.variable,
-            fontMuseo.variable
           )}
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>

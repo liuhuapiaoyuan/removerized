@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ai-removebg:
+    image: liuhuapiaoyuan/ai-removebg
+    ports:
+      - "8193:3000"
+  # 开机启动
+    restart: always

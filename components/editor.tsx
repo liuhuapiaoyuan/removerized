@@ -126,8 +126,8 @@ export const Editor = () => {
             <div className="flex w-full flex-col items-center justify-center pb-4 pt-3 ">
               <Icons.SolarCloudUploadBoldDuotone className="size-8"></Icons.SolarCloudUploadBoldDuotone>
               <p className="mb-1 text-sm text-gray-500 dark:text-gray-400">
-                <span className="font-semibold">Click to upload</span>
-                &nbsp; or drag and drop
+                <span className="font-semibold">点击此处上传</span>
+                &nbsp; 或者拖拽文件到此处
               </p>
               <p className="text-xs text-gray-500 dark:text-gray-400">
                 PNG, JPG or WEBP file
@@ -199,7 +199,7 @@ export const Editor = () => {
           disabled={!imageData}
         >
           <Icons.SolarGalleryRemoveLineDuotone className="mr-2 size-5"></Icons.SolarGalleryRemoveLineDuotone>
-          Process
+          启动
         </Button>
 
         <Button
@@ -209,14 +209,14 @@ export const Editor = () => {
           onClick={handleDownload}
         >
           <Icons.SolarDownloadMinimalisticBoldDuotone className="mr-2 size-5"></Icons.SolarDownloadMinimalisticBoldDuotone>
-          Download
+          下载
         </Button>
       </div>
 
       <AlertDialog open={showDialog}>
         <AlertDialogContent>
           <AlertDialogHeader>
-            <AlertDialogTitle>Processing</AlertDialogTitle>
+            <AlertDialogTitle>加工中...</AlertDialogTitle>
             <AlertDialogDescription className="flex flex-col gap-2">
               <p>{dialogText}</p>
               {dialogText.includes("Downloading") ? (
