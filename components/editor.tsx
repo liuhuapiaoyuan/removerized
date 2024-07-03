@@ -67,9 +67,9 @@ export const Editor = () => {
 
         if (key.includes("fetch:"))
           setDialogText(
-            "Downloading AI models. This was a little while ago the first time..."
+            "首次加载，正在初始化AI模型，请稍候..."
           )
-        if (key === "compute:inference") setDialogText("Processing image...")
+        if (key === "compute:inference") setDialogText("图像处理中...")
       },
     }
 
@@ -88,7 +88,7 @@ export const Editor = () => {
         const end = performance.now()
         const time = end - start
         toast.success(
-          `🚀 Successful operation in  ${Math.floor(time / 1000)} s`
+          `🚀 成功处理，使用时间：  ${Math.floor(time / 1000)} s`
         )
 
         sendGAEvent({ event: "remove-background", value: "success" })
