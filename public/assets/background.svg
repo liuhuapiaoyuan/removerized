@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="48" height="48" viewBox="0 0 48 48">
-    <g opacity="0.035"><rect width="24" height="24" fill="currentColor"></rect>
-    <rect x="24" y="24" width="24" height="24" fill="currentColor"></rect></g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svgjs="http://svgjs.dev/svgjs" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" version="1.1" viewBox="0 0 48 48"><g opacity=".035"><rect width="24" height="24" fill="currentColor"/><rect width="24" height="24" x="24" y="24" fill="currentColor"/></g></svg>
